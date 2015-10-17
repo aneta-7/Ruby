@@ -1,7 +1,7 @@
 ##Tutorial Array
 
-tworzenie nowej, pustej tablicy
-names = Array.new
+tworzenie nowej, pustej tablicy<br/>
+names = Array.new<br/>
 
 okreslenie wielkosci
 names = Array.new(20)
