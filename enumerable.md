@@ -1,10 +1,9 @@
 ##### ENUMERABLE<br/><br/><br/>
 
 ###all? [{ |obj| block } ] → true or false<br/>
-
-||||%w[ant bear cat].all? { |word| word.length >= 3 } #=> true<br/>
-||||%w[ant bear cat].all? { |word| word.length >= 4 } #=> false<br/>
-||||[nil, true, 99].all?                              #=> false<br/><br/>
+%w[ant bear cat].all? { |word| word.length >= 3 } #=> true<br/>
+%w[ant bear cat].all? { |word| word.length >= 4 } #=> false<br/>
+[nil, true, 99].all?                              #=> false<br/><br/>
 
 ###any? [{ |obj| block }] → true or false<br/>
 %w[ant bear cat].any? { |word| word.length >= 3 } #=> true<br/>
