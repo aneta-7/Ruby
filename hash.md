@@ -1,3 +1,6 @@
+#! /usr/bin/env ruby -w
+# $VERBOSE=true
+
 ### HASH
 Hash jest podobnym typem do Array, ale tam gdzie Array uzywa integera do indeksowania w Hashu możemy użyć dowolnego obiektu<br/>
 
