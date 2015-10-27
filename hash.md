@@ -2,11 +2,11 @@
 Hash jest podobnym typem do Array, ale tam gdzie Array uzywa integera do indeksowania w Hashu możemy użyć dowolnego obiektu<br/>
 
 grades = { "Jane Doe" => 10, "Jim Doe" => 6 }<br/><br/>
-
+```ruby
 Hash["a", 100, "b", 200]             #=> {"a"=>100, "b"=>200}<br/>
 Hash[ [ ["a", 100], ["b", 200] ] ]   #=> {"a"=>100, "b"=>200}<br/>
 Hash["a" => 100, "b" => 200]         #=> {"a"=>100, "b"=>200}<br/><br/><br/>
-
+```
 
 
 ##### ustawiania wielkosci, typu czcionki<br/>
