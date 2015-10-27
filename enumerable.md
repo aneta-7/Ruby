@@ -2,15 +2,15 @@
 
 #####all? [{ |obj| block } ] → true or false<br/>
 ```ruby
-%w[ant bear cat].all? { |word| word.length >= 3 } => true
-%w[ant bear cat].all? { |word| word.length >= 4 } => false
-[nil, true, 99].all?                              => false
+%w[ant bear cat].all? { |word| word.length >= 3 } #=> true
+%w[ant bear cat].all? { |word| word.length >= 4 } #=> false
+[nil, true, 99].all?                              #=> false
 ```
 #####any? [{ |obj| block }] → true or false<br/>
 ```ruby
-%w[ant bear cat].any? { |word| word.length >= 3 } => true
-%w[ant bear cat].any? { |word| word.length >= 4 } => true
-[nil, true, 99].any?                              => true
+%w[ant bear cat].any? { |word| word.length >= 3 } #=> true
+%w[ant bear cat].any? { |word| word.length >= 4 } #=> true
+[nil, true, 99].any?                              #=> true
 ```
 #####dzielenie na czesci<br/>
 ```ruby
@@ -35,20 +35,20 @@ File.foreach("README").chunk { |line|
 #####count → int -zliczanie<br/>
 ```ruby
 ary = [1, 2, 4, 2]<br/>
-ary.count               => 4
-ary.count(2)            => 2
-ary.count{ |x| x%2==0 } => 3
+ary.count               #=> 4
+ary.count(2)            #=> 2
+ary.count{ |x| x%2==0 } #=> 3
 ```
 #####cycle(n=nil) → an_enumerator-petla<br/>
 ```ruby
 a = ["a", "b", "c"]
-a.cycle { |x| puts x } =>   print, a, b, c, a, b, c,.. forever.
-a.cycle(2) { |x| puts x } =>   print, a, b, c, a, b, c.
+a.cycle { |x| puts x } #=>   print, a, b, c, a, b, c,.. forever.
+a.cycle(2) { |x| puts x } #=>   print, a, b, c, a, b, c.
 ```
 #####drop(n) → array-usuwanie<br/>
 ```ruby
 a = [1, 2, 3, 4, 5, 0]
-a.drop(3)             => [4, 5, 0]
+a.drop(3)             #=> [4, 5, 0]
 ```
 #####each_cons(n) → an_enumerator-iteruje zadany blok i zwraca n-elementow<br/
 ```ruby
@@ -74,6 +74,6 @@ a.drop(3)             => [4, 5, 0]
 ```
 ####mapowanie<br/>
 ```ruby
-(1..4).map { |i| i*i }    => [1, 4, 9, 16]
+(1..4).map { |i| i*i }    #=> [1, 4, 9, 16]
 ```
 
