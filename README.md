@@ -1,4 +1,4 @@
-## Testowanie aplikacji w Ruby, aneta.stypa7@wp.pl
+## Testowanie aplikacji w Ruby, astypa@sigma.ug.edu.pl
 
 Podręczne linki:
 
