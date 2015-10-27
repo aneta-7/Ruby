@@ -12,7 +12,7 @@ Podręczne linki:
 
 ## Zadania
 
-1. [x] Learn X in Y minutes, where X = [Ruby Array/Enumerable](/)
+1. [x] Learn X in Y minutes, where X =Array,Hash,Enumerable
   - [x] [Hash](hash.md)
   - [x] [Array](array.md)
   - [x] [Enumerable](enumerable.md)
