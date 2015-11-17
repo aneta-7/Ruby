@@ -1,3 +1,4 @@
+
 class InsertionSort
     def sort_out_of_place(to_sort)
         sorted = []
