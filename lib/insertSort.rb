@@ -1,14 +1,16 @@
 
-class InsertionSort
-    def sort_out_of_place(to_sort)
-        sorted = []
+  # In place, destructive
+  def insertion_sort(arr)
+    (1...arr.length).each do |i|
+      current_val = arr[i]
+      j = i - 1
 
-        to_sort.each do |element|
-            for index in 0..(to_sort.length - 1)
-                sorted.insert(index, element) if to_sort[index] > element
-            end
-        end
-
-        return to_sort
+      while j >= 0 && arr[j] > current_val
+        arr[j + 1] = arr[j]
+        j -= 1
+      end
+      arr[j + 1] = current_val
     end
-end
+
+    arr
+  end
