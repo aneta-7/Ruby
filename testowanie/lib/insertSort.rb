@@ -11,6 +11,5 @@
       end
       arr[j + 1] = current_val
     end
-
     arr
   end
