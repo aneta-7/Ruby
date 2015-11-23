@@ -1,4 +1,4 @@
-
+#nieposortowana
 def bubble_sort!(arr)
   sorted = false
 
@@ -14,7 +14,7 @@ def bubble_sort!(arr)
 
   arr
 end
-
+#posortowana
 # Not in-place, indestructive.
 def bubble_sort(arr)
   duped_arr = arr.dup
