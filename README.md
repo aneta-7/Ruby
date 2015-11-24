@@ -16,5 +16,5 @@ Podręczne linki:
   - [x] [Hash](hash.md)
   - [x] [Array](array.md)
   - [x] [Enumerable](enumerable.md)
-2. [ ] Coś do przetestowania na początek
+2. [x] [Testowanie](https://github.com/aneta-7/Ruby/tree/master/testowanie)
 3. [ ] Program/Biblioteka/Aplikacja WWW
