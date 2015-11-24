@@ -1,25 +1,28 @@
 {
   "RSpec": {
     "coverage": {
-      "C:/Users/AnetaS/Documents/GitHub/Ruby/testowanie/lib/bubleSort.rb": [
+      "C:/Users/AnetaS/Documents/GitHub/Ruby/testowanie/lib/mergeSort.rb": [
         1,
-        9,
-        9,
+        86,
         null,
-        9,
-        45,
-        45,
-        359,
-        119,
-        119,
+        39,
+        39,
+        39,
+        null,
+        39,
         null,
         null,
+        1,
+        39,
+        null,
+        39,
+        89,
         null,
         null,
-        9,
+        39,
         null
       ]
     },
-    "timestamp": 1448312235
+    "timestamp": 1448368856
   }
 }

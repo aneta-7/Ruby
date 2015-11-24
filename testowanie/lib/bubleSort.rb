@@ -1,7 +1,6 @@
-def bubble_sort(arr)
+def bubble_sort!(arr)
   duped_arr = arr.dup
   sorted = false
-
   until sorted
     sorted = true
     (duped_arr.length - 1).times do |i|
@@ -11,6 +10,5 @@ def bubble_sort(arr)
       end
     end
   end
-
   duped_arr
  end

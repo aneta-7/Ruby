@@ -1,10 +1,7 @@
-
-  # In place, destructive
-  def insertion_sort(arr)
+  def insertion_sort!(arr)
     (1...arr.length).each do |i|
       current_val = arr[i]
       j = i - 1
-
       while j >= 0 && arr[j] > current_val
         arr[j + 1] = arr[j]
         j -= 1
