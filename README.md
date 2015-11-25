@@ -9,7 +9,6 @@ Podręczne linki:
   - [rspec-expectations](https://github.com/rspec/rspec-expectations)
   - [rspec-mocks](https://github.com/rspec/rspec-mocks)
 
-
 ## Zadania
 
 1. [x] Array,Hash,Enumerable - tutorials(from ruby_doc)
