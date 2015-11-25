@@ -12,9 +12,9 @@ Podręczne linki:
 
 ## Zadania
 
-1. [x] Learn X in Y minutes, where X =Array,Hash,Enumerable
+1. [x] Array,Hash,Enumerable - tutorials(from ruby_doc)
   - [x] [Hash](hash.md)
   - [x] [Array](array.md)
   - [x] [Enumerable](enumerable.md)
-2. [x] [Testowanie](https://github.com/aneta-7/Ruby/tree/master/testowanie)
+2. [x] [Testowanie-Mege,Bubble,Insert](https://github.com/aneta-7/Ruby/tree/master/testowanie)
 3. [ ] Program/Biblioteka/Aplikacja WWW
