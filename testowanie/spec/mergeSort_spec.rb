@@ -16,17 +16,21 @@ RSpec.describe 'mergeSort.rb' do
         expect(merge_sort!([1, 2, 3, 4, 5, 0, 4, 3, 2, 1])).to eq([0, 1, 1, 2, 2, 3, 3, 4, 4, 5])
     end
 
-    it "should return an empty array, when given one" do
+    it "should return an empty array, when given zero elements" do
       expect(merge_sort!([])).to eq([])
     end
 
     it "should handle single element arrays" do
-       expect(merge_sort!([5])).to eq([5])
+       expect(merge_sort!([3])).to eq([3])
     end
 
     it "should handle small and simple arrays" do
-      expect(merge_sort!([6, 5])).to eq([5, 6])
-      expect(merge_sort!([7, 6, 5])).to eq([5, 6, 7])
+      expect(merge_sort!([2, 1])).to eq([1, 2])
+      expect(merge_sort!([9, 2, 3])).to eq([2, 3, 9])
+    end
+
+    it "should not alter an already sorted array" do
+      expect(merge_sort!(sorted_random_arr)).to eq(sorted_random_arr)
     end
 
   end

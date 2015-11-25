@@ -3,24 +3,20 @@ require_relative '../lib/bubleSort.rb'
 require_relative '../lib/insertSort.rb'
 require_relative '../lib/mergeSort.rb'
 
-array5 = (1..500_000).map { rand }
-array10 = (1..1_000_000).map { rand }
+array1 = (1..500).map { rand }
+array5 = (1..1_000).map { rand }
 
-array = (1..100).map
-random_order = (1..1_000_000).map { rand }
+Benchmark.bm(10) do |x|
+  x.report('500 sort!           ') {array1.dup.sort!}
+  x.report('1_000 sort!         ') {array5.dup.sort!}
 
-Benchmark.bm(4) do |x|
-  x.report('100_000 sort!') {array5.dup.sort!}
-  x.report('200_000 sort!') {array10.dup.sort!}
+  x.report('500 bubbleSort!     ') {bubble_sort!(array1)}
+  x.report('1_000 bubbleSort!   ') {bubble_sort!(array5)}
 
-  x.report("Bubble Sort (random):") { random_order.bubble_sort!}
+  x.report('500 insertSort!     ') {insertion_sort!(array1)}
+  x.report('1_000 insertSort!   ') {insertion_sort!(array5)}
 
-  x.report('bubble_sort!') {array.dup.bubble_sort!}
-  x.report('bubble_sort!') {array.dup.bubble_sort!}
+  x.report('500 mergeSort!      ') {merge_sort!(array1)}
+  x.report('1_000 mergeSort!    ') {merge_sort!(array5)}
 
-  x.report('insertion_sort!') {array.dup.insertion_sort!}
-  x.report('insertion_sort!') {array.dup.insertion_sort!}
-
-  x.report('merge_sort!') {array.dup.merge_sort!}
-  x.report('merge_sort!') {array.dup.merge_sort!}
 end

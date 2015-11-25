@@ -14,7 +14,7 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2015-11-24T13:40:56+01:00">2015-11-24T13:40:56+01:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2015-11-25T20:52:37+01:00">2015-11-25T20:52:37+01:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,7 +25,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         40.9
+         49.9
        </span>
     </span> hits/line)
   </h2>
@@ -53,11 +53,11 @@
       <tr>
         <td class="strong"><a href="#ec7404d2c6654271bb13dc59b555211eb65dd745" class="src_link" title="lib/mergeSort.rb">lib/mergeSort.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>19</td>
+        <td>14</td>
         <td>11</td>
         <td>11</td>
         <td>0</td>
-        <td>40.9</td>
+        <td>49.9</td>
       </tr>
       
     </tbody>
@@ -96,109 +96,79 @@
           <code class="ruby">def merge_sort!(arr)</code>
         </li>
       
-        <li class="covered" data-hits="86" data-linenumber="2">
-          <span class="hits">86</span>
+        <li class="covered" data-hits="105" data-linenumber="2">
+          <span class="hits">105</span>
           
           <code class="ruby">  return arr if arr.length &lt; 2</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="3">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="39" data-linenumber="4">
-          <span class="hits">39</span>
+        <li class="covered" data-hits="48" data-linenumber="3">
+          <span class="hits">48</span>
           
           <code class="ruby">  mid = arr.length / 2</code>
         </li>
       
-        <li class="covered" data-hits="39" data-linenumber="5">
-          <span class="hits">39</span>
+        <li class="covered" data-hits="48" data-linenumber="4">
+          <span class="hits">48</span>
           
           <code class="ruby">  left = arr[0...mid]</code>
         </li>
       
-        <li class="covered" data-hits="39" data-linenumber="6">
-          <span class="hits">39</span>
+        <li class="covered" data-hits="48" data-linenumber="5">
+          <span class="hits">48</span>
           
           <code class="ruby">  right = arr[mid..-1]</code>
+        </li>
+      
+        <li class="covered" data-hits="48" data-linenumber="6">
+          <span class="hits">48</span>
+          
+          <code class="ruby">  return merge( merge_sort!(left), merge_sort!(right) )</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
           
           
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="39" data-linenumber="8">
-          <span class="hits">39</span>
-          
-          <code class="ruby">  return merge( merge_sort!(left), merge_sort!(right) )</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="9">
-          
-          
           <code class="ruby">end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="10">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="1" data-linenumber="11">
+        <li class="covered" data-hits="1" data-linenumber="8">
           <span class="hits">1</span>
           
           <code class="ruby">def merge(left, right)</code>
         </li>
       
-        <li class="covered" data-hits="39" data-linenumber="12">
-          <span class="hits">39</span>
+        <li class="covered" data-hits="48" data-linenumber="9">
+          <span class="hits">48</span>
           
           <code class="ruby">  sorted_arr = []</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="13">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="39" data-linenumber="14">
-          <span class="hits">39</span>
+        <li class="covered" data-hits="48" data-linenumber="10">
+          <span class="hits">48</span>
           
           <code class="ruby">  until left.empty? || right.empty?</code>
         </li>
       
-        <li class="covered" data-hits="89" data-linenumber="15">
-          <span class="hits">89</span>
+        <li class="covered" data-hits="106" data-linenumber="11">
+          <span class="hits">106</span>
           
           <code class="ruby">    sorted_arr &lt;&lt; (left.first &gt; right.first ? right.shift : left.shift)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="16">
+        <li class="never" data-hits="" data-linenumber="12">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="17">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="39" data-linenumber="18">
-          <span class="hits">39</span>
+        <li class="covered" data-hits="48" data-linenumber="13">
+          <span class="hits">48</span>
           
           <code class="ruby">  sorted_arr + left + right</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="19">
+        <li class="never" data-hits="" data-linenumber="14">
           
           
           <code class="ruby">end</code>

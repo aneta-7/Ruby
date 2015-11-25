@@ -3,26 +3,21 @@
     "coverage": {
       "C:/Users/AnetaS/Documents/GitHub/Ruby/testowanie/lib/mergeSort.rb": [
         1,
-        86,
-        null,
-        39,
-        39,
-        39,
-        null,
-        39,
-        null,
+        105,
+        48,
+        48,
+        48,
+        48,
         null,
         1,
-        39,
+        48,
+        48,
+        106,
         null,
-        39,
-        89,
-        null,
-        null,
-        39,
+        48,
         null
       ]
     },
-    "timestamp": 1448368856
+    "timestamp": 1448481157
   }
 }
