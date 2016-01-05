@@ -16,4 +16,4 @@ Podręczne linki:
   - [x] [Array](array.md)
   - [x] [Enumerable](enumerable.md)
 2. [x] [Testowanie-Mege,Bubble,Insert](https://github.com/aneta-7/Ruby/tree/master/testowanie)
-3. [ ] Program/Biblioteka/Aplikacja WWW
+3. [x] [Egzamin - Aplikacja](https://github.com/kpalkowska/Ruby/tree/master/Egzamin)
